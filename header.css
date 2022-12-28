@@ -85,7 +85,7 @@ header{
 }
 
 .header__cookies{
-    display: block;
+    display: flex;
     background-color: #F7F9FF;
 }
 .header__cookies__wrapper{
@@ -232,7 +232,8 @@ a:visited{
     }
 
     .header__discount{
-        padding-bottom: 35px;
+        padding-bottom: 45px;
+        
         text-align: center;
     }
 
@@ -347,7 +348,9 @@ a:visited{
 
     .header__nav.active ul li{
         margin: 10px;
-        font-size: 14px;
+        padding-left: 30px;
+        font-size: 12px;
+        
     }
 
     .header__about{
