@@ -1,0 +1,81 @@
+.main__slider__wrapper{
+    max-width: 1470px;
+    overflow: hidden;
+}
+
+.main__slider{
+    display: flex;
+    width: 100%;
+}
+
+.main__slider__image{
+    min-width: 270px;
+    max-height: 305px;
+    margin-top: 100px;
+    margin-right: 25px;
+    background-color: #EBEBEB;
+    position: relative;
+}
+
+.slider__name{
+    position: absolute;
+    top: 65%;
+    left: 7%;
+
+    font-family: 'Nunito';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+
+}
+
+#slider1{
+    padding: 5px 120px 10px 20px;
+    background: #2468FF;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+#slider2{
+    padding: 5px 90px 10px 20px;
+    background: #ffffff;
+    color: #000000;
+    border-radius: 5px;
+}
+
+#slider3{
+    padding: 5px 110px 10px 20px;
+    background: #3FE8BE;
+    color: #000000;
+    border-radius: 5px;
+}
+
+#slider4{
+    padding: 5px 80px 10px 20px;
+    background: #C6FF00;
+    color: #000000;
+    border-radius: 5px;
+}
+
+#slider5{
+    padding: 5px 100px 10px 20px;
+    background: #ffffff;
+    color: #000000;
+    border-radius: 5px;
+}
+
+#next__slide{
+    min-width: 25px;
+    margin-top: 240px;
+    position: absolute;
+    top: -33%;
+    left: 100%;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+#next__slide:hover{
+    opacity: 1;
+    transition: opacity 1.5s;
+}
